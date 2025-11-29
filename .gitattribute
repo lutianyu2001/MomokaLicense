@@ -1,0 +1,69 @@
+# .gitattribute
+# Tianyu (Sky) Lu (tianyu@lu.fm)
+# 2025-02-19
+
+# Text files that should be normalized to LF
+*.c         text    eol=lf  diff=cpp
+*.cpp       text    eol=lf  diff=cpp
+*.rs        text    eol=lf  diff=rust
+
+*.py        text    eol=lf  diff=python
+*.pl        text    eol=lf  diff=perl
+*.java      text    eol=lf  diff=java
+*.kt        text    eol=lf  diff=kotlin
+
+*.config    text    eol=lf
+
+*.txt       text    eol=lf
+*.md        text    eol=lf  diff=markdown
+*.markdown  text    eol=lf  diff=markdown
+*.tex       text    eol=lf  diff=tex
+
+*.html      text    eol=lf  diff=html
+*.css       text    eol=lf  diff=css
+
+*.sh        text    eol=lf  diff=bash
+*.ps1       text    eol=lf
+*.cmd       text    eol=lf
+*.bat       text    eol=lf
+
+*.sln       text    eol=lf
+*.csproj    text    eol=lf
+*.msbuild   text    eol=lf
+
+# Binary files that should not be normalized or diffed
+GitHub.Tests.Integration/Resources/*  binary
+
+# Pictures
+*.png   binary
+*.jpg   binary
+*.gif   binary
+
+# Executables
+*.pfx   binary
+*.snk   binary
+*.dll   binary
+*.exe   binary
+*.lib   binary
+*.exp   binary
+*.pdb   binary
+*.sdf   binary
+
+# Compressed Files
+*.zip   binary
+*.7z    binary
+*.gz    binary
+*.tar   binary
+
+# Miscellaneous Files
+*.pdf   binary
+
+# Special Files
+*.h5    binary
+*.keras binary
+*.onnx  binary
+*.pt    binary
+
+# Use git automatic line endings conversion for files not specified
+# Add rules manually if you get CRLF <-> LF warnings
+* text=auto
