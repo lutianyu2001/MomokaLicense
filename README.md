@@ -18,8 +18,8 @@ The following table shows where these licenses are being used.
 
 | Project | License | Scope | Description |
 |---------|---------|-------|-------------|
-| [DoxBench](https://github.com/lutianyu2001/DoxBench) | Momoka Scientific Strict License 1.0 | Dataset | Public dataset for ["Doxing via the Lens: Revealing Privacy Leakage in Image Geolocation for Agentic Multi-Modal Large Reasoning Model"](https://arxiv.org/abs/2504.19373) |
-| [VRAP](https://github.com/EddyLuo1232/VRAP) | Momoka Scientific Strict License 1.0 | Dataset | Public dataset for ["Code Agent can be an End-to-end System Hacker: Benchmarking Real-world Threats of Computer-use Agent"](https://arxiv.org/abs/2510.06607) |
+| [DoxBench](https://huggingface.co/datasets/MomoUchi/DoxBench) | Momoka Scientific Strict License 1.0 | Dataset | Public dataset for ["Doxing via the Lens: Revealing Location-related Privacy Leakage on Multi-modal Large Reasoning Models"](https://arxiv.org/abs/2504.19373) |
+| [AdvCUA](https://huggingface.co/datasets/MomoUchi/AdvCUA) | Momoka Scientific Strict License 1.0 | Dataset | Public dataset for ["Code Agent can be an End-to-end System Hacker: Benchmarking Real-world Threats of Computer-use Agent"](https://arxiv.org/abs/2510.06607) |
 
 ---
 
